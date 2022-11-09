@@ -1,0 +1,27 @@
+# options: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+---
+AlignArrayOfStructures: Left
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+AlignEscapedNewlines: Left
+AlignOperands: Align
+AlignTrailingComments: true
+AlwaysBreakTemplateDeclarations: Yes
+AllowShortFunctionsOnASingleLine: Empty
+AlignAfterOpenBracket: Align
+AllowShortBlocksOnASingleLine: Empty
+BinPackParameters: true
+BinPackArguments: true
+BreakBeforeBraces: Allman
+ColumnLimit: 80
+Cpp11BracedListStyle: true
+DisableFormat: true
+IncludeBlocks: Regroup
+IndentWidth: 4
+Language: Cpp
+NamespaceIndentation: Inner
+TabWidth: 4
+QualifierAlignment: Left
+PointerAlignment: Right
